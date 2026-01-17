@@ -1,0 +1,58 @@
+/bochs.log
+# ======================
+# Build outputs
+# ======================
+*.o
+*.obj
+*.elf
+*.bin
+*.img
+*.iso
+*.map
+*.sym
+*.out
+
+# ======================
+# Kernel / OS artifacts
+# ======================
+boot/*.o
+kernel/*.o
+*.a
+
+# ======================
+# Debug & emulator files
+# ======================
+bochsout.txt
+bx_enh_dbg.ini
+qemu.log
+*.log
+
+# ======================
+# Generated folders
+# ======================
+build/
+dist/
+out/
+bin/
+obj/
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS / Toolchain
+# ======================
+*.exe
+*.dll
+
+# ======================
+# Archives
+# ======================
+*.zip
+*.tar
+*.tar.gz
